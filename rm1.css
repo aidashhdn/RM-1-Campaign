@@ -1,0 +1,99 @@
+/* Reset some default margin and padding for elements */
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+#header-logo{
+    width: 1000px;
+    height: auto;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+/* Border around the quoted text */
+#border {
+    border: 10px solid #678882;
+    padding: 20px;
+    margin: 0 auto 20px;
+    text-align: center;
+    width:fit-content;
+    
+}
+
+.salary-deduction-form{
+    border:2px solid #333;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Style the form inputs and labels */
+.input-group {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.input-group label {
+    width: 150px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="email"],
+.input-group input[type="tel"] {
+    flex: 1;
+    padding: 5px;
+}
+
+/* Style the date inputs */
+.date-inputs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.date-inputs label {
+    margin-right: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-information {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact-details{
+    flex:1;
+    margin-left: 20px;
+    text-align: left;
+}
+.map{
+    flex:1;
+    margin-left: 20px;
+    text-align: right;
+
+}
+

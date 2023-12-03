@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RM1 Campaign Program</title>
+    <link rel="stylesheet" href="rm1.css">
+</head>
+
+<script src="rm1.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<body>
+    <header id="header">
+        <img src="logo_iium.png" alt="IIUM Logo" id="header-logo">
+        <h1>RM1 Campaign</h1>
+        <p>Let your contributions be perpetual for the pleasure of Allah swt</p>
+        
+    </header>
+
+    <main id="main">
+        <div id="border">
+        <p>"The example of those who spend their wealth in the way of Allah<br>
+            is like a seed [a grain] which grows seven spikes; in each spike <br>
+            is a undred grains. And Allah multiplies [His reward] for whome He wills. <br>
+            And Allah is all-Encompassing and Knowing." <br>
+        </p><br>
+        <p>Quranic Verse: Al-Baqarah:261</p>
+        </div>
+
+
+        <section class="salary-deduction-form">
+            <h2>Monthly Salary Deduction Form</h2><br>
+            <form id="deduction-form">
+                <div class="input-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+        
+                <div class="input-group">
+                    <label for="staffNo">Staff No.:</label>
+                    <input type="text" id="staffNo" name="staffNo" required>
+                </div>
+        
+                <div class="input-group">
+                    <label for="kcdio">K/C/D/I/O:</label>
+                    <input type="text" id="kcdio" name="kcdio" required>
+                </div>
+        
+                <div class="input-group">
+                    <label for="contNo">Contact No.:</label>
+                    <input type="tel" id="contNo" name="contNo" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+        
+                <div class="input-group">
+                    <label for="amt">Amount to be Deducted RM:</label>
+                    <input type="text" id="amt" name="amt" required>
+                </div>
+
+                <p>The above salary deduction will take effect from</p><br>
+        
+                <div class="date-inputs">
+                    <label for="start-month">Start Month:</label>
+                    <input type="text" id="start-month" name="start-month" placeholder="Month" required>
+                    <input type="text" id="start-year" name="start-year" placeholder="Year" required>
+                </div>
+
+                <p>until </p><br>
+        
+                <div class="date-inputs">                    
+                    <label for="end-month">End Month:</label>
+                    <input type="text" id="end-month" name="end-month" placeholder="Month" required>
+                    <input type="text" id="end-year" name="end-year" placeholder="Year" required>
+                </div>
+        
+                <p>or further notice.</p><br>
+        
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <button onclick="scrollToSection('header')">Go to Header</button>
+        <button onclick="scrollToSection('main')">Go to Main</button>
+         <button onclick="scrollToSection('footer')">Go to Footer</button>
+    </main>
+
+    <footer id="footer">
+        <p>&copy; 2023 RM1 Campaign</p>
+        <div class="contact-information">
+            <div class="contact-details">
+                <h2>IIUM Endowment Fund Contact Information</h2>
+                <p>Level 3, Rectory</p>
+                <p>International Islamic University Malaysia</p>
+                <p>P.O. Box 10</p>
+                <p>50728 Kuala Lumpur</p>
+                <p><i class="fas fa-phone"></i> Tel: 03 6196 4268</p>
+                <p><i class="fas fa-envelope"></i> Email: ief@iium.edu.my</p>
+                <p><i class="fas fa-globe"></i> Website: <a href="www.iium.edu.my/ief">www.iium.edu.my/ief</a></p>
+                <p><i class="fab fa-facebook-f"></i> Facebook: <a href="www.facebook.com/ief.official/">www.facebook.com/ief.official/</a></p>
+            </div>
+            <div class="map">
+                <iframe
+                    width="400"
+                    height="150"
+                    frameborder="10"
+                    style="border: 10;"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.3977202785236!2d101.73223731744383!3d3.2509264000000027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc38c192558cef%3A0x883b1ded797867a!2sOffice%20of%20the%20Legal%20Adviser%20IIUM!5e0!3m2!1sen!2smy!4v1701615057088!5m2!1sen!2smy"
+                    width="400"
+                    height="150"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </footer>
+
+    
+    
+    
+</body>
+</html>
